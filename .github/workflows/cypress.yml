@@ -1,0 +1,42 @@
+name: Cypress Tests
+ 
+on: [push]  # Runs on every push
+ 
+jobs:
+  cypress-test:
+    runs-on: ubuntu-latest
+    steps:
+      # Get your code
+      - name: Checkout
+        uses: actions/checkout@v4
+ 
+      # Install npm packages
+      - name: Install dependencies
+        run: npm install
+ 
+      # Run Cypress tests
+      - name: Run Cypress tests
+        id: cypress
+        run: npx cypress run
+        continue-on-error: true
+ 
+      # Send to Slack
+      - name: Notify Slack
+        if: always()
+        uses: slackapi/slack-github-action@v1.24.0
+        with:
+          payload: |
+            {
+              "text": "Cypress Test Results",
+              "blocks": [
+                {
+                  "type": "section",
+                  "text": {
+                    "type": "mrkdwn",
+                    "text": "*Cypress Test Results*\n${{ steps.cypress.outcome == 'success' && '✅ Tests Passed' || '❌ Tests Failed' }}\n<${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}|View Details>"
+                  }
+                }
+              ]
+            }
+        env:
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
