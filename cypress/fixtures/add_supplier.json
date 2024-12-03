@@ -1,0 +1,22 @@
+{
+    "company_name": "Supplier4",
+    "country_of_incorporation": ["Canada", "Singapore", "India", "Japan", "China", "Malaysia", "South Africa", "Israel", "Belgium", "Germany", "South Korea", "Italy", "United States of America", "United Kingdom", "Bahrain", "Kuwait", "Oman", "Qatar", "Saudi Arabia", "United Arab Emirates"],
+    "country_locations": {
+        "United States of America": ["New York", "California", "Texas"],
+        "Canada": ["Ontario", "Quebec", "British Columbia"],
+        "United Arab Emirates": ["Dubai", "Abu Dhabi", "Sharjah"]
+    },
+    "email": "supplier4_tester_anshul@mailinator.com",
+    "password": "Test@1234",
+    "mobile_number": "83745557",
+    "address": "AddressSuppier",
+    "website": "https://www.orennow.com/",
+    "pan_no": "19Qiy42", 
+    "business_criticality": ["High", "Medium", "Low"],
+    "designation": "CSO", 
+    "spoc_name": "Shades4", 
+    "annual_spend": "3587157",
+    "mailinatorurl": "https://www.mailinator.com/v4/public/inboxes.jsp",
+    "loginurl": "https://frontend.orennow.com/auth/login",
+    "baseurl": "https://frontend.orennow.com"
+}

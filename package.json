@@ -1,0 +1,31 @@
+{
+  "name": "cypresswebstie",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "run:smoke": "cypress run --spec 'cypress/e2e/Tests/Run_All_Smoke_Tests.cy.js'",
+    "slack-report": "node slackReporter.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@slack/webhook": "^7.0.3",
+    "cypress-slack-reporter": "^1.5.4",
+    "xlsx": "^0.18.5",
+    "xlsx-populate": "^1.21.0"
+  },
+  "devDependencies": {
+    "cypress": "^13.15.1",
+    "cypress-downloadfile": "^1.2.4",
+    "cypress-file-upload": "^5.0.8",
+    "cypress-xpath": "^2.0.1",
+    "mochawesome": "^7.1.3",
+    "mochawesome-merge": "^4.3.0",
+    "mochawesome-report-generator": "^6.2.0",
+    "@slack/webhook": "^latest"
+
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "materials": ["Biodiversity","Corporate Governance","Water"],
+  "dates": ["01/04/2024", "01/04/2023", "01/04/2022", "01/04/2021"],
+  "report_name": ["My Custom Report"],
+  "due_date": {
+    "month": "November",
+    "year": "2024",
+    "day": "19"
+  },
+  "audit_date": {
+    "month": "December",
+    "year": "2024",
+    "day": "6"
+  },
+  "auditors": ["Auditor"],
+  "material_topics": [
+    "Biodiversity",
+    "Corporate Governance",
+    "Water",
+    "Energy & Emissions",
+    "Human Rights and Child Labour",
+    "Anti-bribery and Anti-corruption",
+    "Effluents & Waste",
+    "Transportation",
+    "Workplace Management",
+    "Environmental Policy and Processes",
+    "Scope 3",
+    "Diversity, Equity, and Inclusion",
+    "Sustanable Packaging",
+    "Employee Health and Safety",
+    "Workforce Profile",
+    "Raw Materials"
+    
+  ]
+  
+}

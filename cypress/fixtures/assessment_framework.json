@@ -1,0 +1,23 @@
+{
+    "frameworks": ["BRSR - Core","SEDG"],
+    "dates": ["01/04/2024","01/04/2023","01/04/2022", "01/04/2021"],
+    "due_date": {
+        "month": "October",
+        "year": "2024",
+        "day": "25"
+      },
+      "audit_date": {
+        "month": "October",
+        "year": "2024",
+        "day": "30"
+    },
+    "auditors": ["Auditor"],
+    "business": ["High","Medium","Low"],
+    "picksupplier": [
+      "Leased assets (upstream)",
+      "Transportation and distribution (downstream)",
+      "Transportation and distribution (upstream)",
+      "Leased assets (downstream)",
+      "Purchased goods and services"]
+  
+  }

@@ -1,0 +1,12 @@
+{
+    "userName": "ST Member",
+    "userEmail": "stm_tester_anshul@mailinator.com",
+    "userMobileNo" : "123124",
+    "password": "Test@1234",
+    "Department": ["Finance","Health & Safety","HR","IT","Legal","Marketing","Operations - Water","Operations - Waste","Operations - Emissions","R&D","Sales","Other"],
+    "mailinatorurl": "https://www.mailinator.com/v4/public/inboxes.jsp",
+    "loginurl": "https://frontend.orennow.com/auth/login",
+    "baseurl": "https://frontend.orennow.com"
+  
+  
+  }

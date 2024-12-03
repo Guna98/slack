@@ -1,0 +1,48 @@
+{
+    "email": "tester_anshul@mailinator.com",
+    "password": "Test@1234",
+    "materialTopics": [
+        "Anti-bribery & Anti-corruption",
+        "Biodiversity",
+        "Corporate Governance",
+        "Diversity, Equity & Inclusion",
+        "Effluent & Waste",
+        "Employee Health & Safety",
+        "Energy & Emissions",
+        "Environmental Policy and Processes",
+        "Human Rights and Child Labour",
+        "Raw Materials",
+        "Scope 3",
+        "Sustainability Packaging",
+        "Transportation",
+        "Water",
+        "Workforce Profile",
+        "Workforce Management"
+    ],
+    "date": [
+        "01/04/2024",
+        "01/04/2023",
+        "01/04/2022",
+        "01/04/2021"
+    ],
+    "due_date": {
+    "month": "October",
+    "year": "2024",
+    "day": "25"
+  },
+  "audit_date": {
+    "month": "October",
+    "year": "2024",
+    "day": "30"
+  },
+    "auditors": ["Auditor 1"],
+    "businessCriticality": ["High", "Medium", "Low"],
+    "supplierCategory": [
+        "Leased assets (upstream)",
+        "Transportation and distribution (downstream)",
+        "Transportation and distribution (upstream)",
+        "Leased assets (downstream)",
+        "Purchuased goods and services",
+        "Capital goods"
+    ]
+}

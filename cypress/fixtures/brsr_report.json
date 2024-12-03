@@ -1,0 +1,20 @@
+{
+  "frameworks": ["BRSR","BRSR - Core"],
+  "subFrameworks": ["Comprehensive", "Essential"],
+  "dates": ["01/04/2024","01/04/2023","01/04/2022", "01/04/2021"],
+  "report_due_date": {
+    "month": "September",
+    "year": "2025",
+    "day": "26"
+  },
+  "audit_due_date": {
+    "month": "September",
+    "year": "2025",
+    "day": "30"
+  },
+  "auditors": ["Auditor"],
+  "mailinatorurl": "https://www.mailinator.com/v4/public/inboxes.jsp",
+  "loginurl": "https://frontend.orennow.com/auth/login",
+  "baseurl": "https://frontend.orennow.com"
+
+}

@@ -1,0 +1,12 @@
+{
+  "collabName": "Collaborator",
+  "collabMobileNo" : "12314292",
+  "email": ["collb40_tester_anshul@mailinator.com","collb41_tester_anshul@mailinator.com"],
+  "password": ["Test@1234" ,"Test@1234"],
+  "collabBusinessUnit": ["Mumbai"],
+  "collabDepartment": ["Finance","Health & Safety","HR","IT","Legal","Marketing","Operations - Water","Operations - Waste","Operations - Emissions","R&D","Sales","Other"],
+  "mailinatorurl": "https://www.mailinator.com/v4/public/inboxes.jsp",
+  "loginurl": "https://frontend.orennow.com/auth/login",
+  "baseurl": "https://frontend.orennow.com"
+
+}

@@ -1,0 +1,18 @@
+{
+    "business_unit": ["BU"],
+
+    "BU": {
+        "assignee": [
+            "Colloborator"
+        ],
+        "reviewers": [
+            "Reviewer"
+        ]
+    },
+    "Bu_assignee_email": "collb19_tester_anshul@mailinator.com",
+    "Bu_assignee_password": "Test@1234",
+    "Bu_reviewer_email": "collb19_tester_anshul@mailinator.com",
+    "Bu_reviewer_password": "Test@1234",
+    "option_for_question1": ["Yes", "No"],
+    "option_for_question2": ["Yes", "No"]
+}

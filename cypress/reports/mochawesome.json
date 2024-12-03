@@ -1,0 +1,92 @@
+{
+  "stats": {
+    "suites": 0,
+    "tests": 1,
+    "passes": 0,
+    "pending": 0,
+    "failures": 1,
+    "start": "2024-12-03T17:56:08.788Z",
+    "end": "2024-12-03T17:56:40.584Z",
+    "duration": 31796,
+    "testsRegistered": 1,
+    "passPercent": 0,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "785842f2-0c3b-4a1f-8749-58beb3563412",
+      "title": "",
+      "fullFile": "cypress\\e2e\\Tests\\Login\\Login.cy.js",
+      "file": "cypress\\e2e\\Tests\\Login\\Login.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [
+        {
+          "title": "Login",
+          "fullTitle": "Login",
+          "timedOut": null,
+          "duration": 12598,
+          "state": "failed",
+          "speed": null,
+          "pass": false,
+          "fail": true,
+          "pending": false,
+          "context": null,
+          "code": "//cy.Reset()\ncy.visit('https://practicetestautomation.com/practice-test-login/');\nloginPage.enterEmail('tester_anshul@mailinator.com').enterPassword('Test@1234').clickLogin();\n// Removed assertion for successful login\ncy.Signout();",
+          "err": {
+            "message": "AssertionError: Timed out retrying after 4000ms: Expected to find element: `input[name=\"email\"]`, but never found it.",
+            "estack": "AssertionError: Timed out retrying after 4000ms: Expected to find element: `input[name=\"email\"]`, but never found it.\n    at LoginPage.enterEmail (webpack://cypresswebstie/./cypress/e2e/pages/Login_Page/login_page.js:10:11)\n    at Context.eval (webpack://cypresswebstie/./cypress/e2e/Tests/Login/Login.cy.js:10:13)",
+            "diff": null
+          },
+          "uuid": "60527907-84f4-4042-a828-cf001c98f019",
+          "parentUUID": "785842f2-0c3b-4a1f-8749-58beb3563412",
+          "isHook": false,
+          "skipped": false
+        }
+      ],
+      "suites": [],
+      "passes": [],
+      "failures": [
+        "60527907-84f4-4042-a828-cf001c98f019"
+      ],
+      "pending": [],
+      "skipped": [],
+      "duration": 12598,
+      "root": true,
+      "rootEmpty": false,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "charts": true,
+        "reportDir": "cypress/reports",
+        "overwrite": false,
+        "embeddedScreenshots": true,
+        "html": true,
+        "json": true
+      },
+      "version": "6.2.0"
+    }
+  }
+}

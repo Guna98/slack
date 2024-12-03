@@ -1,0 +1,17 @@
+{
+    "csr_applicability": ["Yes", "No"],
+    "turnover_question_value": "1000000",
+    "previous_year_turnover_value": "1100000",
+    "net_worth_question_value": "1200000",
+    "assignee": ["Anshul Test CSO", "Collaborator19", "Collaborator20"],
+    "reviewers": ["Anshul Test CSO", "Collaborator19", "Collaborator20"],
+    "collab_assignee_email": "collb19_tester_anshul@mailinator.com",
+    "collab_assignee_password": "Test@1234",
+    "collab_reviewer_email": "collb20_tester_anshul@mailinator.com",
+    "collab_reviewer_password": "Test@1234",
+    "base_url": "https://frontend.orennow.com/auth/login"
+
+    
+}
+
+

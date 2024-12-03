@@ -1,0 +1,14 @@
+{
+  "email": "tester_anshul@mailinator.com",
+  "password": "Test@1234",
+  "dateFormats": ["DD/MM/YYYY", "MM/DD/YYYY", "YYYY/MM/DD"],
+  "timeFormat": ["HH:mm","HH:mm:ss"],
+  "currency": ["Indian Rupee","US Dollar","Canadian Dollar","Pound","Singapore Dollar","Chinese Yuan","Ringgit","South African Rand","Israeli Shekel","Euro","South Korean Won","Japanese Yen","Bahraini Dinar","Kuwaiti Dinar","Rial Omani","Qatari Rial","Saudi Riyal","Swiss Franc","UAE Dirham"],
+  "dataCaptureFrequency": ["Yearly","Monthly"],
+  "reportingCycle": ["Apr - March","Jan - Dec"],
+  "numberFormat": "12,34,567.89",
+  "emailReminderSupplier": ["Enabled","Disabled"],
+  "emailReminderCollaborator": ["Enabled","Disabled"],
+  "workingDays": ["0","1","2","3","4","5","6","7"]
+}
+

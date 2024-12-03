@@ -1,0 +1,19 @@
+
+{
+"businessUnit_name" : ["Singapore","India"],
+"country_of_incorporation": ["Canada", "Singapore", "India", "Japan", "China", "Malaysia", "South Africa", "Israel", "Belgium", "Germany", "South Korea", "Italy", "United States of America", "United Kingdom", "Bahrain", "Kuwait", "Oman", "Qatar", "Saudi Arabia", "United Arab Emirates"],
+"country_locations": {
+  "United States of America": ["New York", "California", "Texas"],
+  "Canada": ["Ontario", "Quebec", "British Columbia"],
+  "United Arab Emirates": ["Dubai", "Abu Dhabi", "Sharjah"]
+},
+"name": ["user1","user2","user3","user4"],
+"email": ["user1_tester_anshul@mailinator.com","user2_tester_anshul@mailinator.com","user3_tester_anshul@mailinator.com","user4_tester_anshul@mailinator.com"],
+"mobile": ["789478457","234567890","789478457","234567890"],
+"buDepartment": ["Finance","Health & Safety","HR","IT","Legal","Marketing","Operations - Water","Operations - Waste","Operations - Emissions","R&D","Sales","Other"],
+"password" : ["New@1235","New@1235","New@1235","New@1235"],
+"mailinatorurl": "https://www.mailinator.com/v4/public/inboxes.jsp",
+"loginurl": "https://frontend.orennow.com/auth/login",
+"baseurl": "https://frontend.orennow.com"
+
+}
